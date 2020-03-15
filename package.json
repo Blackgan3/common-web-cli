@@ -1,0 +1,38 @@
+{
+  "name": "y-h5-cli",
+  "version": "1.0.0",
+  "description": "h5 cli",
+  "main": "index.js",
+  "bin": {
+    "y-h5-cli": "./bin/y-h5.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "ypack",
+    "h5",
+    "cli",
+    "react"
+  ],
+  "files": [
+    "bin",
+    "command",
+    "doc",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    ".gitIgnore",
+    "lib",
+    "yarn.lock"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1"
+  }
+}
