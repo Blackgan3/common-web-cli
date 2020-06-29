@@ -10,6 +10,7 @@ exports.templateIdEnum = {
  * url: 模版仓库，可以是远程地址，也可以是本地地址
  * cmd: 模版执行命令
  */
+console.log('test')
 exports.templateChoiceList = [
   {
     name: `${chalk.green('React')}`,
